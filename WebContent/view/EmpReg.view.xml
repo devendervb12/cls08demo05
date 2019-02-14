@@ -1,0 +1,8 @@
+<x1:View xmlns:x1="sap.ui.core.mvc" 
+ xmlns="sap.m">
+		
+		<Button text="Register" width="50%" />
+		<Label text="Name"/>
+			<Button type="Back"
+			 text="fsd" press="onPress" />
+</x1:View>
