@@ -1,8 +1,11 @@
 <x1:View xmlns:x1="sap.ui.core.mvc" 
+ xmlns:form = "sap.ui.layout.form"
+ xmlns:core="sap.ui.core"
  xmlns="sap.m">
+		<form:SimpleForm>
+		   <form:title>
+		     <core:Title text="Please Enter..."/> 
+		   </form:title>
+		</form:SimpleForm>
 		
-		<Button text="Register" width="50%" />
-		<Label text="Name"/>
-			<Button type="Back"
-			 text="fsd" press="onPress" />
 </x1:View>
