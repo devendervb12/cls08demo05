@@ -21,10 +21,16 @@
 			type : "XML"
 		});
 		
+		var oView2 = sap.ui.view({
+			id : "id2",
+			viewName : "view.Page2",
+			type : "XML"
+		});
+		
 		// placing App
 		new sap.m.App({
 			pages : [
-				oView1
+				oView1, oView2
 			]
 		}).placeAt("content");
 		</script>
